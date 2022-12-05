@@ -53,6 +53,19 @@ main h1 {
     }
     main section.main {
         display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 4rem;
+        justify-content: space-around;
+        margin: auto 4rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    main h1 {
+        font-size: 5rem;
+    }
+    main section.main {
+        display: grid;
         grid-template-columns: auto auto;
         gap: 4rem;
         justify-content: space-around;
@@ -69,6 +82,6 @@ main h1 {
         grid-template-columns: auto;
         gap: 4rem;
         justify-content: space-around;
-        margin: auto 4rem;
+        margin: auto 2rem;
     }
 }
